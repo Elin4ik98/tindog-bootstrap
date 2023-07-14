@@ -1,0 +1,134 @@
+.container1 {
+  background: linear-gradient(300deg, #ed4bdd, #9a4dec, #e8734f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display:flex;
+  width:100%;
+}
+
+@media (max-width: 828px){
+  .container1 {
+    height:130vh;
+  }
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+span{
+  color:white
+}
+.features{
+  margin-top:30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.clients{
+  display:flex;
+  justify-content: space-around;
+}
+#pricing{
+ 
+ margin-left:10%;
+ margin-right:10%;
+}
+.btn-primary {
+  background-color: black;
+  border-color: black;}
+
+.btn-primary:hover {
+    background-color: gray;
+    border-color: gray;
+    color: white;
+  }
+.btn-outline-secondary{
+  color:white; 
+  border-color:white;
+}
+.btn-outline-secondary:hover {
+  background-color: white;
+  border-color: rgb(255, 255, 255);
+  color: black;
+}
+.clients{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  
+}
+@media (max-width: 828px){
+.clients{
+  flex-direction:column;
+  height:100px;
+  
+}
+}
+
+#footer {  
+  background: linear-gradient(300deg, #ed4bdd, #9a4dec, #e8734f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color:white;
+  margin-bottom: -150px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn-outline-primary {
+  color:black;
+  border-color: black;
+}
+.btn-outline-primary:hover {
+  background-color: black;
+  border-color: black;
+}
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color: black!important;
+}
+.text-bg-primary {
+  color: #fff!important;
+  background-color: black!important;
+
+  #footer > div > footer > div:nth-child(1) > p {
+    color: white !important;;
+  }
+  .text-body-secondary {
+    --bs-text-opacity: 1; 
+}
+
+.text-body-secondary {
+  font-weight: bold;
+}
